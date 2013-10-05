@@ -11,9 +11,3 @@
  *= require_self
  *= require_tree .
  */
-
-.bs-docs-nav{
-  border-color: #463265;
-  width: 100%;
-
-}
