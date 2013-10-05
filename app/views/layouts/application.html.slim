@@ -7,7 +7,7 @@ html
     = csrf_meta_tags 
   body 
     = nav_bar :fixed => :top, :brand => "Convener", :responsive => true do
-      = menu_group do
+      = menu_group  :pull => :right do
           - if current_user
             = menu_item current_user["info"]['nickname']
             = menu_item "退出", signout_path
