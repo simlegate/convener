@@ -1,4 +1,6 @@
 Convener::Application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+
   root "dashbord#index"
   get "/auth/:provider/callback" => "sessions#create"
   get "signout" => "sessions#destroy", :as => "signout"
