@@ -1,6 +1,6 @@
-## convener
+## Convener
 
-为你的项目召集合作伙伴
+Launch your projects and convene collaborators on the platform
 
 ### 背景
 
