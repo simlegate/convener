@@ -2,9 +2,9 @@
 
 Launch your projects and convene collaborators on the platform
 
-### 背景
+### Background
 
-### 贡献
+### Contribution
 
 如果你想要为本项目提交你的代码
 
