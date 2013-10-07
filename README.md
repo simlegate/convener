@@ -6,7 +6,7 @@ Launch your projects and convene collaborators on the platform
 
 ### Installation
 
-Apply GITHUB_KEY and GITHUB_SECRET at [Github application](https://github.com/settings/applications), then
+Apply `GITHUB_KEY` and `GITHUB_SECRET` at [Github application](https://github.com/settings/applications), then
 
 set them on your local Unix or Linux system
 ```ruby
