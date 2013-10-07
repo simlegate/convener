@@ -4,17 +4,23 @@ Launch your projects and convene collaborators on the platform
 
 ### Background
 
-### Contribution
+### Installation
 
-如果你想要为本项目提交你的代码
+Apply GITHUB_KEY and GITHUB_SECRET at [Github application](https://github.com/settings/applications), then
 
-发邮件到simlegate@163.com获取`GITHUB_SECRET` 和 `GITHUB_KEY`
-
-在`~/.bashrc`或者`~/.zshrc`设置GITHUB_SECRET 和 GITHUB_KEY环境变量
-
+set them on your local Unix or Linux system
 ```ruby
+# open ~/.bashrc or ~/.zshrc
+
 export GITHUB_KEY='your client id'
 export GITHUB_SECRET='your client secret'
 
-# 记得source ~/.bashrc or source ~/.zshrc
+# source ~/.bashrc or source ~/.zshrc
 ```
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
