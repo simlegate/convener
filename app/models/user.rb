@@ -17,11 +17,10 @@ class User
     create! do |user|
       user.provider = auth['provider']
       user.nickname = auth['info']['nickname']
-      user.roles.create!(name: 'admin')
     end
   end
 
   def admin?
-    roles.where(name: 'admin').present?
+    true
   end
 end
