@@ -52,3 +52,5 @@ group :test do
   gem 'cucumber'
   gem 'cucumber-rails', :require => false
 end
+
+gem 'rolify'
