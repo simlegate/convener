@@ -49,4 +49,6 @@ end
 
 group :test do
   gem 'database_cleaner'
+  gem 'cucumber'
+  gem 'cucumber-rails', :require => false
 end
