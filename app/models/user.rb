@@ -1,6 +1,12 @@
 class User
   include Mongoid::Document
 
+  rolify :role_cname => 'User'
+  rolify :before_add => :before_add_method
+
+  def before_add_method(role)
+    # do something before it gets added
+  end
   field :provider
   field :nickname
 
