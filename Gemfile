@@ -16,7 +16,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 group :doc do
-  gem 'sdoc', require: false
+  gem 'sdoc', :require => false
 end
 
 gem 'omniauth-github'
