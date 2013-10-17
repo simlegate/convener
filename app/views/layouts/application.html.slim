@@ -6,11 +6,16 @@ html
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags 
   body 
-    = nav_bar :fixed => :top, :brand => "Convener", :responsive => true do
+    = nav_bar :brand => "Convener", :responsive => true do
       = menu_group  :pull => :right do
           - if current_user
             = menu_item current_user.nickname
             = menu_item "退出", signout_path
           - else
             = menu_item "登陆", "/auth/github"
+    div.container
+      div.btn-group
+        a.btn.btn-large.span3 href=feeds_path news feed
+        a.btn.btn-large.span3 href=projects_path my projects
+        a.btn.btn-large.span3 href=feeds_path joined projects
     = yield

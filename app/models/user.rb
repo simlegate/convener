@@ -6,6 +6,8 @@ class User
 
   validates_presence_of :nickname, :provider
 
+  has_many :projects
+
   def self.find_by_omniauth auth
     # not validate with find_or_create_by
     user = User.where(nickname: auth['info']['nickname'], provider: auth['provider']).first_or_create!

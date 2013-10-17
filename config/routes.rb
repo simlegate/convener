@@ -5,6 +5,9 @@ Convener::Application.routes.draw do
   get "/auth/:provider/callback" => "sessions#create"
   get "signout" => "sessions#destroy", :as => "signout"
 
+  resources :feeds, :only => [:index]
+  resources :projects
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
