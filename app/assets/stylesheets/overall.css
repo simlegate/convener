@@ -5,3 +5,21 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.projects_list>li {
+  position: relative;
+  min-height: 66px;
+  padding-bottom: 20px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid #eee;
+  line-height: 9px
+}
+
+.news {
+  margin-top: 10px;
+
+}
+
+.news>div {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
