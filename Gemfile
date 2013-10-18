@@ -58,3 +58,5 @@ end
 gem 'rolify'
 
 gem 'factory_girl_rails'
+
+gem 'coveralls', require: false
