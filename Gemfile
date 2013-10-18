@@ -60,5 +60,3 @@ gem 'rolify'
 gem 'factory_girl_rails'
 
 gem 'coveralls', require: false
-
-gem "mongo_session_store-rails3"
