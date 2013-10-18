@@ -1,7 +1,7 @@
 ## Convener
 
 Launch your projects and convene collaborators on the platform
-
+[![Build Status](https://travis-ci.org/simlegate/convener.png?branch=master)](https://travis-ci.org/simlegate/convener)
 ### Background
 
 Have good ideas but have no collaborators achieving them with you.  
