@@ -26,4 +26,7 @@ Convener::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  # Disable request forgery protection in development environment
+  config.action_controller.allow_forgery_protection = false
 end
