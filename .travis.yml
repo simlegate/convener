@@ -3,6 +3,8 @@ rvm:
 
 script: "bundle exec rspec spec/"
 
+services: mongodb
+
 notifications:
   email:
     - simlegate@163.com
