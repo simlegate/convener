@@ -1,10 +1,15 @@
 class ProjectsController < ApplicationController
 
   def index
+    @projects = Project.find_with_current_user current_user
   end
 
   def create
-    Project.create_with_current_user project_params, current_user
+    project = Project.create_with_current_user project_params, current_user
+    redirect_to project_path project
+  end
+
+  def show
   end
 
   private

@@ -1,5 +1,7 @@
 class Project
-  include Mongoid::Document
+
+ include Mongoid::Document
+ include Mongoid::Timestamps
 
   belongs_to :user
 
@@ -15,5 +17,9 @@ class Project
 
     project.save!
     project
+  end
+
+  def self.find_with_current_user current_user
+    self.where(user_id: current_user.id)
   end
 end

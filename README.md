@@ -1,7 +1,7 @@
 ## Convener
 
 Launch your projects and convene collaborators on the platform  
-[![Build Status](https://travis-ci.org/simlegate/convener.png?branch=master)](https://travis-ci.org/simlegate/convener) [![Coverage Status](https://coveralls.io/repos/simlegate/convener/badge.png)](https://coveralls.io/r/simlegate/convener)
+[![Build Status](https://travis-ci.org/simlegate/convener.png?branch=master)](https://travis-ci.org/simlegate/convener) [![Coverage Status](https://coveralls.io/repos/simlegate/convener/badge.png)](https://coveralls.io/r/simlegate/convener) [![Dependency Status](https://gemnasium.com/simlegate/convener.png)](https://gemnasium.com/simlegate/convener)
 ### Background
 
 Have good ideas but have no collaborators achieving them with you.  

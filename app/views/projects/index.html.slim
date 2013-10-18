@@ -1,13 +1,9 @@
 ul.projects_list.unstyled
-  li
-    h3
-      a href="/simlegate/convener" convener
-    div
-      p.description Launch your projects and convene collaborators on the platform
-      p.updated-at.muted Last updated 15 minutes ago
-  li
-    h3
-      a href="/simlegate/convener" convener
-    div
-      p.description Launch your projects and convene collaborators on the platform
-      p.updated-at.muted Last updated 15 minutes ago
+  - @projects.map do |project|
+    li
+      h3
+        a href=project_path(project) 
+          = project.name
+      div
+        p.description = project.description
+        p.updated-at.muted = project.updated_at
