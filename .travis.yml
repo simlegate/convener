@@ -1,7 +1,7 @@
 rvm:
   - 2.0.0
 
-script: "bundle exec guard"
+script: "bundle exec rspec spec/"
 
 notifications:
   email:
