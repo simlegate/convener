@@ -18,7 +18,7 @@ describe User do
     end
 
     it 'should not create user when auth invaid' do
-      expect {User.find_by_omniauth({'info'=> { 'nickname' => 'simlegate1'}})}.to raise_error(Mongoid::Errors::Validations)
+      expect {User.find_by_omniauth({'info'=> { 'nickname' => 'simlegate1'}})}.to raise_error
     end
   end
 end

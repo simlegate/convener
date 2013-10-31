@@ -25,9 +25,11 @@ gem 'omniauth-github'
 
 gem 'slim-rails'
 
-gem 'mongoid', github: 'mongoid/mongoid'
+# gem 'mongoid', github: 'mongoid/mongoid'
 
-gem 'bson_ext'
+# gem 'bson_ext'
+
+gem 'sqlite3'
 
 gem 'rspec-rails'
 
@@ -60,3 +62,7 @@ gem 'rolify'
 gem 'factory_girl_rails'
 
 gem 'coveralls', require: false
+
+gem 'newrelic_rpm'
+
+gem 'rails-observers'

@@ -1,8 +1,4 @@
-class User
-  include Mongoid::Document
-
-  field :provider
-  field :nickname
+class User < ActiveRecord::Base
 
   validates_presence_of :nickname, :provider
 

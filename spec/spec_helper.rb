@@ -23,7 +23,7 @@ Spork.prefork do
     config.include FactoryGirl::Syntax::Methods
 
     config.before(:suite) do
-      DatabaseCleaner[:mongoid].strategy = :truncation
+      DatabaseCleaner[:active_record].strategy = :truncation
     end
 
     config.before(:each) do

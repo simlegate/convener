@@ -1,6 +1,7 @@
 require 'spec_helper'
 
-describe FeedsController do
+
+describe ApplicationController do
 
   describe "current_user" do
     it 'should be nil when session[:user_id] is nil' do

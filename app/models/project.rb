@@ -1,18 +1,16 @@
-class Project
-
- include Mongoid::Document
- include Mongoid::Timestamps
+class Project < ActiveRecord::Base
 
   belongs_to :user
 
-  field :name
-  field :description
+	attr_accessor :name
+	attr_accessor :description
+	attr_accessor :user_id
 
   validates_presence_of :name, :user_id
 
   def self.create_with_current_user params, current_user
     project = new(params) do |project|
-      project.user = current_user
+      project.user_id = current_user.id
     end
 
     project.save!

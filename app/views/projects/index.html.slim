@@ -6,4 +6,4 @@ ul.projects_list.unstyled
           = project.name
       div
         p.description = project.description
-        p.updated-at.muted = project.updated_at
+        p.updated-at.muted = time_ago_in_words project.updated_at

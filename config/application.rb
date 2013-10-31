@@ -1,6 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
-# require "active_record/railtie"
+require "active_record/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "sprockets/railtie"
@@ -25,9 +25,10 @@ module Convener
     # config.i18n.default_locale = :de
     #
     config.generators do |g|
-      g.orm             :mongoid, :migration => false
       g.template_engine :slim
       g.test_framework  :rspec
     end
+
+    config.active_record.observers = :project_observer
   end
 end
