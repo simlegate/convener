@@ -25,10 +25,6 @@ gem 'omniauth-github'
 
 gem 'slim-rails'
 
-# gem 'mongoid', github: 'mongoid/mongoid'
-
-# gem 'bson_ext'
-
 gem 'sqlite3'
 
 gem 'rspec-rails'
