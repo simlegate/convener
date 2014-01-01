@@ -47,6 +47,11 @@ group :development, :test do
   gem 'childprocess'
 end
 
+group :development do
+  gem 'spring'
+  gem 'pry'
+end
+
 group :test do
   gem 'database_cleaner'
   gem 'cucumber'
