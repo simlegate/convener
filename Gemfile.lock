@@ -319,6 +319,7 @@ DEPENDENCIES
   less-rails
   newrelic_rpm
   omniauth-github
+  pry
   rails (= 4.0.0)
   rails-observers
   rails_admin
